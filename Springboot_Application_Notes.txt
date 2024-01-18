@@ -1,0 +1,31 @@
+To implement the described requirements, we can create a Spring Boot application with the following components.
+
+Entities:
+_________
+
+User
+Session
+Restaurant
+
+
+Repositories:
+_____________
+
+UserRepository
+SessionRepository
+RestaurantRepository
+
+
+Controllers:
+____________
+
+UserController
+SessionController
+RestaurantController
+
+
+Service:
+________
+SessionService
+
+SessionService-> This will have the logic for creating sessions, joining sessions, submitting restaurants, picking a random restaurant and end the sessions.
